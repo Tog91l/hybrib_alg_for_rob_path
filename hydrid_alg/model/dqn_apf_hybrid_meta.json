@@ -1,0 +1,13 @@
+{
+  "model_file": "models/dqn_apf_hybrid.zip",
+  "algorithm": "DQN",
+  "policy": "MlpPolicy",
+  "observation_size": 2607,
+  "action_space": 8,
+  "window_size": 100,
+  "local_obs_radius": 35,
+  "local_feature_radius": 25,
+  "train_map_size": 1000,
+  "test_map_size": 500,
+  "dynamic_obstacles": true
+}
